@@ -3,8 +3,8 @@
 # from initial commit, assuming tag
 # time is same as release
 #
-# call this script like:
-#  git log --decorate --tags --pretty=format:'%ai|%h|%ae|%d' -n 30 | ruby /c/c ode/git.enova.com/lwalters/notes/git_time_to_value.rb
+# call this script from your git local copy like:
+#  git log --decorate --tags --pretty=format:'%ai|%h|%ae|%d' -n 30 | ruby git_time_to_value.rb
 #
 ############################
 
